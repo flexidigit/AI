@@ -1,0 +1,86 @@
+/* AddTaskForm CSS */
+
+/* Style the form container */
+form {
+    width: 60%;
+    margin: 0 auto;
+    padding: 1%;
+    background-color: #eaefed;
+    border: 3px solid #4d1a57;
+    border-radius: 5px;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+body{
+
+    background-color: #eaefed;
+}
+/* Style the form title */
+h1 {
+    font-size: 3rem;
+    color: #4d1a57;
+    text-align: center;
+}
+
+
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],form textarea {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #4d1a57;
+    border-radius: 3px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #11a796;
+    padding: 1%;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    border-radius: 13Px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 15%;
+    height: 2.3rem;
+    margin-left: 55%;
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+    background-color: #10cd4c;
+}
+
+.back {
+    background-color: #1258d1;
+    padding: 1%;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    border-radius: 13Px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 15%;
+    height: 2.3rem;
+    margin-left: 5%;
+}
+
+.back:hover {
+    background-color: #227dcd;
+}
+
+
+.link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+}

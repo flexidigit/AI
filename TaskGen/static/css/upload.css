@@ -1,0 +1,110 @@
+/* upload.css */
+
+/* Reset default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the background and font */
+body {
+    background-color: #eaefed;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the container */
+.container {
+    margin: 0 auto;
+    padding: 6rem;
+    background-color: #eaefed;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style the heading */
+.heading {
+    font-size: 4rem;
+    color: #4d1a57;
+    margin-top: 0;
+}
+
+/* Style the instruction text */
+.instruction {
+    font-size: 0.9rem;
+    color:black;
+    margin-bottom: 20px;
+}
+
+/* Style the form */
+form {
+    text-align: center;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    
+}
+
+
+/* Style the submit button */
+form input[type="submit"] {
+    background-color: #177f56;
+    padding: 1%;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    border-radius: 13Px;
+    margin-right: 10%;
+    cursor: pointer;
+    text-decoration: none;
+    width: 20%;
+    height: 2.3rem;
+    margin-top: 3%;
+
+}
+
+/* Style the submit button on hover */
+form input[type="submit"]:hover {
+    background-color: #1a78c0;
+}
+
+
+.formdiv{
+    padding-left: 10%;
+}
+
+.back {
+    background-color: #1258d1;
+    padding: 1%;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    border-radius: 13Px;
+    margin-right: 10%;
+    width: 20%;
+    height: 2.3rem;
+}
+
+.back:hover {
+    background-color: #11a796;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.file{
+    color: blue;
+    font-weight: bold;
+    font-size: 1rem;
+}

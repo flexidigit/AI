@@ -1,0 +1,184 @@
+/* table.css */
+
+/* Reset default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #eaefed;
+
+}
+
+/* Style the background and font */
+body {
+    background-color: #eaefed;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the container */
+.heading {
+    text-align: center;
+    background-color: #eaefed;
+    color: #4d1a57;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+/* Style the table */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: #eaefed;
+    border: 5px solid #4d1a57;
+    color: black;
+    margin-left: 5%;
+    overflow: auto;
+}
+
+/* Style the table header row */
+thead {
+    background-color: #eaefed;
+    color: rgb(18, 2, 29);
+    text-align: center;
+    font-size: 1.3rem;
+
+}
+
+th {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #4d1a57;
+    border-bottom: 2px solid #4d1a57;
+
+}
+ td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border: 1px solid #4d1a57;
+    font-size: 1rem;
+
+}
+
+/* Style table links (e.g., Edit) */
+a {
+    color: #0f088d;
+}
+
+/* Style the "Download Excel" button */
+.download{
+
+    background-color: #177f56;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    border-radius: 13Px;
+    margin-right: 0%;
+    width: 13%;
+    height: 2.5rem;
+    text-align: center;
+
+} 
+
+.regenerate{
+
+    text-align: center;
+    border: solid #11a796;
+    border-width: 3px;
+    font-size: 1.2rem;
+    border-radius: 13Px;
+    margin-right: 20%;
+    width: 13%;
+    height: 2.5rem;
+    margin-top: 0%;
+
+
+}
+
+.add_task {
+    text-align: center;
+    font-size: 1.2rem;
+    border: solid 3px #1258d1 ;
+    color: #fff;
+    border-radius: 13Px;
+    margin-left: 10%;
+    width: 13%;
+    height: 2.5rem;
+}
+
+.download:hover{
+
+    background-color: #11a796;
+
+
+
+} .regenerate:hover{
+    background-color: #b5d7d3;
+
+} 
+
+.add_task:hover {
+    background-color: #ced9e3;
+}
+
+.back {
+   background-color: #1258d1;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    border-radius: 13Px;
+    margin-left: 0%;
+    width: 13%;
+    height: 2.5rem;
+    text-align: center;
+    margin-top: 2%;
+}
+.back:hover {
+    background-color: #0056b3;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.regen{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0f6b60;
+    cursor: pointer;
+}
+
+.add{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0a3b80;
+    cursor: pointer;
+}
+
+
+.delete-icon {
+    color: #ff0000; 
+    text-decoration: none; 
+    font-size: 18px; 
+}
+
+.delete-icon:hover {
+    color: #ff3333; 
+}
+
+.edit-icon {
+    color: #060689;
+    text-decoration: none; 
+    font-size: 18px; 
+}
+
+.edit-icon:hover {
+    color: #0056b3; 
+}
+
+.instruction{
+    color: #4d1a57;
+}

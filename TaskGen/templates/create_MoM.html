@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create MoM</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/CreateMoM.css' %}">
+</head>
+<body>
+<div class="container">
+    <h1 class="heading">Create Minutes of Meeting</h1>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="back"><a class='link' href="{% url 'main_page' %}">Back</a></button>
+        <button type="submit">Generate Tasks</button>
+    </form>
+</div>
+</body>
+</html>

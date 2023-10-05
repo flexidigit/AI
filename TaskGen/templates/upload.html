@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Pdf</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/upload.css' %}">
+</head>
+<body>
+<div class="container">
+    <h1 class="heading">Upload a MoM file</h1>
+    <p class='instruction'>Please upload a file format (<span class='file'>.pdf</span>, <span class='file'>.txt</span>, <span class='file'>.docx</span>) for the Minutes of Meeting (MoM)<p/>
+    <div class='formdiv'>
+        <form method ='post' enctype ="multipart/form-data">
+            {% csrf_token %}
+            {{form}}
+            <br/>
+            <br/>
+            <input type="submit" value = "Submit">
+        </form>
+        <br/>
+        <button class="back"><a class='link' href="{% url 'main_page' %}">Back</a></button>
+    </div>
+</div>
+
+
+
+</body>
+</html>

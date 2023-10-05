@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GenTask</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Tasks from Meeting Minutes</h1>
+
+        <p class="description">This Website is integrated with a Generative AI model capable of
+        processing and understanding text data.You can input the meeting minutes in a text format, either by
+        uploading a file or entering text directly.</p>
+        
+        <button class="upload-btn"><a href="{% url 'upload_page' %}" class='link'>Upload File</a></button>
+        <br/>
+        <br/>
+        <button class="create-btn"><a href="{% url 'create_mom' %}" class="link">Create MoM</a></button>
+
+
+    </div>
+</body>
+</html>
